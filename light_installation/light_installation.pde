@@ -12,6 +12,8 @@ int[] depthMap;
 
 color[] previousPixels;
 
+boolean on_pause = true;
+
 //mapping settings
 int left = 0;
 int right = 0;
@@ -53,7 +55,9 @@ void draw() {
             
             if (rawDepth > lowerThreshold && rawDepth < upperThreshold) {
 
-                pixelAdd(loc, 15);
+                if (!on_pause) {
+                    pixelAdd(loc, 15);
+                }
 
             } else {
 
@@ -81,8 +85,10 @@ void draw() {
 
     output.updatePixels();
 
+    PImage croped = output.get(left, top, kinect.depthWidth - left - right, kinect.depthHeight - top - bottom);
+
     //scale output image to the screen size 
-    image(output.get(left, top, kinect.depthWidth - left - right, kinect.depthHeight - top - bottom);, 0, 0, width, height);
+    image(croped, 0, 0, width, height);
 
     // println(frameRate);
 }
@@ -120,3 +126,12 @@ int[] pixelsAround(int index) {
 
     return values;
 }
+
+// start and stop with spacebar
+void keyPressed() {
+
+    if (keyCode == 32) {
+        on_pause = !on_pause;
+    }
+}
+
