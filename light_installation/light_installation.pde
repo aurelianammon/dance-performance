@@ -81,10 +81,8 @@ void draw() {
 
     output.updatePixels();
 
-    output.get(left, top, kinect.depthWidth - left - right, kinect.depthHeight - top - bottom);
-
     //scale output image to the screen size 
-    image(output, 0, 0, width, height);
+    image(output.get(left, top, kinect.depthWidth - left - right, kinect.depthHeight - top - bottom);, 0, 0, width, height);
 
     // println(frameRate);
 }
