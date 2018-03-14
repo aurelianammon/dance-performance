@@ -12,9 +12,18 @@ int[] depthMap;
 
 color[] previousPixels;
 
+//mapping settings
+int left = 0;
+int right = 0;
+int top = 0;
+int bottom = 0;
+
 void setup() {
+
     // size(512, 424);
     fullScreen();
+
+    //initialize kinect class and device
     kinect = new Kinect2(this);
     kinect.initDepth();
     kinect.initDevice();
@@ -72,7 +81,11 @@ void draw() {
 
     output.updatePixels();
 
-    image(output,150,-100,width-300,height+200);
+    output.get(left, top, kinect.depthWidth - left - right, kinect.depthHeight - top - bottom);
+
+    //scale output image to the screen size 
+    image(output, 0, 0, width, height);
+
     // println(frameRate);
 }
 
