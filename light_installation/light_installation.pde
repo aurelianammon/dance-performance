@@ -12,13 +12,13 @@ int[] depthMap;
 
 color[] previousPixels;
 
-boolean on_pause = true;
+boolean on_pause = false;
 
 //mapping settings
-int left = 0;
-int right = 0;
-int top = 0;
-int bottom = 0;
+int left = 50;
+int right = 10;
+int top = 50;
+int bottom = 70;
 
 void setup() {
 
@@ -134,4 +134,3 @@ void keyPressed() {
         on_pause = !on_pause;
     }
 }
-
