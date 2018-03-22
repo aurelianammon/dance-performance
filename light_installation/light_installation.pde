@@ -17,13 +17,13 @@ boolean on_pause = false;
 //mapping settings
 int left = 50;
 int right = 10;
-int top = 50;
+int top = 70;
 int bottom = 70;
 
 void setup() {
 
     // size(512, 424);
-    fullScreen();
+    fullScreen(P2D);
 
     //initialize kinect class and device
     kinect = new Kinect2(this);
@@ -90,7 +90,7 @@ void draw() {
     //scale output image to the screen size 
     image(croped, 0, 0, width, height);
 
-    // println(frameRate);
+    println(frameRate);
 }
 
 //function to subtract or add values from the color of a pixel
