@@ -7,7 +7,7 @@ The following image shows how the installation was implemented in the final perf
 ## Setup
 
 Needed hardware and software
-* Computer with processing installed and the code from the light_installation folder
+* Computer with [Processing](https://processing.org) installed and the code from the light_installation folder
 * Kinect Sensor V2
 * Strong Projector, best with a big viewport
 * Long USB 3 cable and HDMI cable to connect all the tools.
@@ -18,4 +18,4 @@ The hardware setup needs some attention. The plan above shows how it should look
 
 ## Contributors
 
-This project was implemented by [Carlo Natter](https://github.com/CarlosGreatHouseOfFaultyGarbage) and [Aurelian Ammon](https://github.com/aurelianammon) as part of a students project at ZHdK. The module was lead by [Luke Franzke](https://www.lukefranzke.com/) who was a big support while developing the concept and the code.
+This project was implemented by [Carlo Natter](https://github.com/CarlosGreatHouseOfFaultyGarbage) and [Aurelian Ammon](https://github.com/aurelianammon) as part of a students project at ZHdK. The module was lead by [Luke Franzke](https://www.lukefranzke.com) who was a big support while developing the concept and the code.
