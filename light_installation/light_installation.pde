@@ -90,6 +90,10 @@ void draw() {
     //scale output image to the screen size 
     image(croped, 0, 0, width, height);
 
+    // test the kinect image
+    // background(0);
+    // image(img, 0, 0);
+
     println(frameRate);
 }
 
