@@ -1,6 +1,6 @@
 # Interactive Dance Installation 
 
-The following image shows how the installation was implemented in the final performance. The projection as well as the motion tracking sensor were attatched to the ceiling. While the dancers were moveing trough the active space, they would create there personal space of light. A collapsing light trail. The image is from [Saar Magals](http://www.saarmagal.com) website. If wished, this is also a good source for more detailed information about the performance.
+The following image shows how the installation was implemented in the final performance at Rote Fabrik. The projection as well as the motion tracking sensor were attatched to the ceiling. While the dancers were moving trough the active space, they would create there personal space of light. A collapsing light trail. The image is from [Saar Magals](http://www.saarmagal.com) website. If wished, this is also a good source for more detailed information about the performance.
 
 ![Impression Image](/images/installation_in_the_performance.jpg)
 
@@ -14,7 +14,7 @@ Needed hardware and software
 
 ![Plan](/images/setup_map.jpg)
 
-The hardware setup needs some attention. The paln above shows how it should look like at the end. The Kinect sensor nedds to be in the middle of everithing, this is very important. Take care to place the Kinect Sensor in horizontally. This ensures a good mapping in the end. The projecter needs to be placed next to the sensor. The distance should not be to big so that the image is not going to be distorted to much. It would be best, if the viewport of the projector and the cinect would match perfectly.
+The hardware setup needs some attention. The plan above shows how it should look like at the end. The Kinect sensor needs to be in the middle of everything, this is very important. Take care to place the Kinect Sensor horizontally. This ensures a good mapping in the end. The projecter needs to be placed next to the sensor. The distance should not be to big so that the image is not going to be distorted to much. It would be best, if the viewport of the projector and the Kinect would match perfectly.
 
 ## Contributors
 
